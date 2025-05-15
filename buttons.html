@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <a href="https://github.com/saad0104">
+      <button
+        style="
+          background-color: #333333;
+          color: greenyellow;
+          border-radius: 5px;
+        "
+      >
+        click here to visit my github
+      </button>
+    </a>
+    <br />
+    <button disabled>This button is disabled</button>
+    <br />
+
+    <button
+      onclick="dosomething()"
+      style="background-color: #333333; color: greenyellow; border-radius: 5px"
+    >
+      click here
+    </button>
+    <p id="test">Hi</p>
+    <script>
+      function dosomething() {
+        document.getElementById("test").innerHTML = "Good Bye";
+      }
+    </script>
+  </body>
+</html>
